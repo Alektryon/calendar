@@ -522,9 +522,9 @@ function leap_islamic(year)
 //  ISLAMIC_TO_JD  --  Determine Julian day from Islamic date
 
 var ISLAMIC_EPOCH = 1948439.5;
-var ISLAMIC_WEEKDAYS = new Array("al-'ahad", "al-'ithnayn",
-                                 "ath-thalatha'", "al-'arb`a'",
-                                 "al-khamis", "al-jum`a", "as-sabt");
+var ISLAMIC_WEEKDAYS = new Array("al-ahad", "al-ithnayn",
+                                 "ath-thalatha'", "al-arba'a",
+                                 "al-khamis", "al-jum'a", "as-sabt");
 
 function islamic_to_jd(year, month, day)
 {
@@ -778,9 +778,9 @@ function jd_to_mayan_count(jd)
 
 //  JD_TO_MAYAN_HAAB  --  Determine Mayan Haab "month" and day from Julian day
 
-var MAYAN_HAAB_MONTHS = new Array("Pop", "Uo", "Zip", "Zotz", "Tzek", "Xul",
-                                  "Yaxkin", "Mol", "Chen", "Yax", "Zac", "Ceh",
-                                  "Mak", "Kankin", "Muan", "Pax", "Kayab", "Cumku", "Uayeb");
+var MAYAN_HAAB_MONTHS = new Array("Pop", "Wo'", "Sip", "Sotz'", "Tzek", "Xul",
+                                  "Yaxk'in", "Mol", "Ch'en", "Yax", "Sak", "Keh",
+                                  "Mak", "K'ank'in", "Muwan", "Pax", "K'ayab'", "Kumk'u", "Wayeb'");
 
 function jd_to_mayan_haab(jd)
 {
@@ -795,10 +795,10 @@ function jd_to_mayan_haab(jd)
 
 //  JD_TO_MAYAN_TZOLKIN  --  Determine Mayan Tzolkin "month" and day from Julian day
 
-var MAYAN_TZOLKIN_MONTHS = new Array("Imix", "Ik", "Akbal", "Kan", "Chicchan",
-                                     "Cimi", "Manik", "Lamat", "Muluc", "Oc",
-                                     "Chuen", "Eb", "Ben", "Ix", "Men",
-                                     "Cib", "Kaban", "Etznab", "Cauac", "Ahau");
+var MAYAN_TZOLKIN_MONTHS = new Array("Imix", "Ik'", "Ak'bal", "K'an", "Chikchan",
+                                     "Kimi", "Manik'", "Lamat", "Muluk", "Ok",
+                                     "Chuwen", "Eb'", "B'en", "Ix", "Men",
+                                     "Kib'", "Kab'an", "Etz'nab'", "Kawak", "Ajaw");
 
 function jd_to_mayan_tzolkin(jd)
 {
