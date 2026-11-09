@@ -778,9 +778,9 @@ function jd_to_mayan_count(jd)
 
 //  JD_TO_MAYAN_HAAB  --  Determine Mayan Haab "month" and day from Julian day
 
-var MAYAN_HAAB_MONTHS = new Array("Pop", "Woʹ", "Sip", "Sotzʹ", "Sek", "Xul",
-                                  "Yaxkʹin", "Mol", "Chʹen", "Yax", "Sak", "Keh",
-                                  "Mak", "Kʹankʹin", "Muwan", "Pax", "Kʹayab", "Kumkʹu", "Wayebʹ");
+var MAYAN_HAAB_MONTHS = new Array("Pop", "Uo", "Zip", "Zotz", "Tzek", "Xul",
+                                  "Yaxkin", "Mol", "Chen", "Yax", "Zac", "Ceh",
+                                  "Mak", "Kankin", "Muan", "Pax", "Kayab", "Cumku", "Uayeb");
 
 function jd_to_mayan_haab(jd)
 {
@@ -795,10 +795,10 @@ function jd_to_mayan_haab(jd)
 
 //  JD_TO_MAYAN_TZOLKIN  --  Determine Mayan Tzolkin "month" and day from Julian day
 
-var MAYAN_TZOLKIN_MONTHS = new Array("Imix", "Ikʹ", "Akʹbʹal", "Kʹan", "Chikchan",
-                                     "Kimi", "Manikʹ", "Lamat", "Muluk", "Ok",
-                                     "Chuwen", "Ebʹ", "Bʹen", "Ix", "Men",
-                                     "Kʹibʹ", "Kabʹan", "Etzʹnabʹ", "Kawak", "Ajaw");
+var MAYAN_TZOLKIN_MONTHS = new Array("Imix", "Ik", "Akbal", "Kan", "Chicchan",
+                                     "Cimi", "Manik", "Lamat", "Muluc", "Oc",
+                                     "Chuen", "Eb", "Ben", "Ix", "Men",
+                                     "Cib", "Kaban", "Etznab", "Cauac", "Ahau");
 
 function jd_to_mayan_tzolkin(jd)
 {
