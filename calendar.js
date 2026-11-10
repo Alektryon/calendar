@@ -778,7 +778,7 @@ function jd_to_mayan_count(jd)
 
 //  JD_TO_MAYAN_HAAB  --  Determine Mayan Haab "month" and day from Julian day
 
-var MAYAN_HAAB_MONTHS = new Array("Pop", "Wo'", "Sip", "Sotz'", "Tzek", "Xul",
+var MAYAN_HAAB_MONTHS = new Array("Pop", "Wo'", "Sip", "Sotz'", "Sek", "Xul",
                                   "Yaxk'in", "Mol", "Ch'en", "Yax", "Sak", "Keh",
                                   "Mak", "K'ank'in", "Muwan", "Pax", "K'ayab'", "Kumk'u", "Wayeb'");
 
